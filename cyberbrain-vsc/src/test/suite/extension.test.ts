@@ -6,6 +6,9 @@ let cl = console.log;
 
 const cbRoot = path.resolve(__dirname, "../../../..");
 
+cl(`__dirname is ${__dirname}`);
+cl(`cbRoot is ${cbRoot}`);
+
 // Timeout is in seconds.
 const examples = [
   { file: "examples/hello.py", args: ["-m", "examples.hello"], timeout: 3 },
